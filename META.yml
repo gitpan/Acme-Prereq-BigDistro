@@ -21,38 +21,41 @@ prereqs:
     requires:
       ExtUtils::MakeMaker: 6.30
 provides:
+  Acme::Prereq::AnotherNS:
+    file: lib/Acme/Prereq/AnotherNS.pm
+    version: 0.02
   Acme::Prereq::AnotherNS::B:
     file: lib/Acme/Prereq/AnotherNS/B.pm
-    version: 0.01
+    version: 0.02
   Acme::Prereq::AnotherNS::C:
     file: lib/Acme/Prereq/AnotherNS/C.pm
-    version: 0.01
+    version: 0.02
   Acme::Prereq::AnotherNS::Deeper::A:
     file: lib/Acme/Prereq/AnotherNS/Deeper/A.pm
-    version: 0.01
+    version: 0.02
   Acme::Prereq::AnotherNS::Deeper::B:
     file: lib/Acme/Prereq/AnotherNS/Deeper/B.pm
-    version: 0.01
+    version: 0.02
   Acme::Prereq::AnotherNS::Deeper::C:
     file: lib/Acme/Prereq/AnotherNS/Deeper/C.pm
-    version: 0.01
+    version: 0.02
   Acme::Prereq::BigDistro:
     file: lib/Acme/Prereq/BigDistro.pm
-    version: 0.01
+    version: 0.02
   Acme::Prereq::BigDistro::A:
     file: lib/Acme/Prereq/BigDistro/A.pm
-    version: 0.01
+    version: 0.02
   Acme::Prereq::BigDistro::B:
     file: lib/Acme/Prereq/BigDistro/B.pm
-    version: 0.01
+    version: 0.02
   Acme::Prereq::BigDistro::Deeper::A:
     file: lib/Acme/Prereq/BigDistro/Deeper/A.pm
-    version: 0.01
+    version: 0.02
   Acme::Prereq::BigDistro::Deeper::B:
     file: lib/Acme/Prereq/BigDistro/Deeper/B.pm
-    version: 0.01
+    version: 0.02
 release_status: stable
-version: 0.01
+version: 0.02
 x_Dist_Zilla:
   plugins:
     -

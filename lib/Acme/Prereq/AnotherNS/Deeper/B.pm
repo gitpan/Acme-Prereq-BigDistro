@@ -2,7 +2,7 @@ package Acme::Prereq::AnotherNS::Deeper::B;
 
 use strict;
 
-our $VERSION = '0.01'; # VERSION
+our $VERSION = '0.02'; # VERSION
 # ABSTRACT: Module for testing CPAN module prerequisites
 
 42;
@@ -17,7 +17,7 @@ Acme::Prereq::AnotherNS::Deeper::B - Module for testing CPAN module prerequisite
 
 =head1 VERSION
 
-version 0.01
+version 0.02
 
 =head1 SYNOPSIS
 

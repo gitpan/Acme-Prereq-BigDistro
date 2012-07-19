@@ -1,4 +1,4 @@
-package Acme::Prereq::BigDistro::Deeper::A;
+package Acme::Prereq::AnotherNS;
 
 use strict;
 
@@ -13,7 +13,7 @@ our $VERSION = '0.02'; # VERSION
 
 =head1 NAME
 
-Acme::Prereq::BigDistro::Deeper::A - Module for testing CPAN module prerequisites
+Acme::Prereq::AnotherNS - Module for testing CPAN module prerequisites
 
 =head1 VERSION
 

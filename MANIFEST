@@ -5,6 +5,7 @@ Makefile.PL
 README.html
 README.pod
 dist.ini
+lib/Acme/Prereq/AnotherNS.pm
 lib/Acme/Prereq/AnotherNS/B.pm
 lib/Acme/Prereq/AnotherNS/C.pm
 lib/Acme/Prereq/AnotherNS/Deeper/A.pm
